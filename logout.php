@@ -4,7 +4,7 @@
 session_start();
 session_unset();
     session_destroy();
-    header("Location: index.php");
-    exit;
+    {echo "<br><br><br>"; }
 ?>
+<h1>You have successfully logged out!<h1>
 <?php require "footer.php"?>
