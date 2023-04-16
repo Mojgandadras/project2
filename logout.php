@@ -1,7 +1,7 @@
+<?php session_start() ?>
 <?php require "header.php" ?>
 
 <?php
-session_start();
 session_unset();
     session_destroy();
     {echo "<br><br><br>"; }
