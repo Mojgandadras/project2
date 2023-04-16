@@ -1,5 +1,5 @@
-<?php require "header.php" ?>
 <?php session_start() ?>
+<?php require "header.php" ?>
 <?php $_SESSION["emailType"] = "lost-password"; ?>
 <form action="send-email.php" method="post">
 

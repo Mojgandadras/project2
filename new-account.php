@@ -1,5 +1,5 @@
-<?php require "header.php" ?>
 <?php session_start() ?>
+<?php require "header.php" ?>
 <?php $_SESSION["emailType"] = "new-account"; ?>
 <form action="send-email.php" method="post" >
 

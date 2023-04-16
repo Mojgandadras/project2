@@ -1,5 +1,5 @@
-<?php require "header.php" ?>
 <?php session_start() ?>
+<?php require "header.php" ?>
 <div style="top: 250px; left:400px; position: fixed">
     <?php 
      if ($_SESSION["emailType"] == "new-account") {echo "<h1>new account<h1>"; }
